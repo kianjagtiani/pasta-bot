@@ -1,0 +1,14 @@
+{
+  "alert_numbers": ["+15551234567", "+15557654321"],
+  "profile": {
+    "first_name": "Kian",
+    "last_name": "Jagtiani",
+    "email": "kjagtian@usc.edu",
+    "phone": "+15551234567",
+    "address1": "123 Example St",
+    "address2": "",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90007"
+  }
+}

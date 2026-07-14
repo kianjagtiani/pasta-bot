@@ -1,2 +1,6 @@
 config.json
 recon/snapshots/
+.venv/
+__pycache__/
+screenshots/
+*.log
