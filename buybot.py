@@ -143,14 +143,14 @@ def main():
                     log.warning("tab B reload: %s", e)
             if now >= drop_epoch + 5 and not warned_late:
                 warned_late = True
-                alerts.send_all(numbers, "⚠️ 2:00 passed — no Buy Now button yet, still watching")
+                alerts.send_all(numbers, "bruh 2pm hit and the button aint dropped yet, im still watching it dw")
             time.sleep(0.05)
 
         log.info("BUY NOW clicked at %+0.2fs after drop",
                  timesync.corrected_now(offset) - drop_epoch)
         winner.bring_to_front()
         alerts.alarm()
-        alerts.send_all(numbers, "🚨 BUY NOW CLICKED — GO! Type card + Place Order (8 min window)")
+        alerts.send_all(numbers, "AYO BUY NOW IS CLICKED ITS GO TIME, type ur card and smash place order, 8 mins on the clock LOCK IN")
         shot(winner, "clicked")
 
         deadline = time.time() + 600

@@ -8,10 +8,10 @@ import timesync
 log = logging.getLogger("alerts")
 
 COUNTDOWN = [
-    (1800, "🍝 Pasta Pass drop in 30 minutes (2:00 PM ET)"),
-    (900, "🍝 15 minutes to Pasta Pass drop"),
-    (300, "🍝 5 minutes — be at the laptop NOW"),
-    (60, "🍝 1 MINUTE. Eyes on the browser."),
+    (1800, "yo pasta pass drops in 30 mins, start locking in gng"),
+    (900, "15 mins out twin, wrap up whatever ur doing fr"),
+    (300, "5 MINS BRO GET TO THE LAPTOP RN this is not a drill"),
+    (60, "1 MIN LEFT LOCK TF IN, eyes on the browser gang"),
 ]
 
 ALARM_SOUND = "/System/Library/Sounds/Sosumi.aiff"
